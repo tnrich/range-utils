@@ -1,1 +1,5 @@
-export * from './lib/number';
+export { adjustRangeToDeletionOfAnotherRange } from "./adjustRangeToDeletionOfAnotherRange"
+export { splitRangeIntoTwoPartsIfItIsCircular } from "./splitRangeIntoTwoPartsIfItIsCircular"
+export { trimRangeByAnotherRange } from "./trimRangeByAnotherRange"
+export { trimNumberToFitWithin0ToAnotherNumber } from "./trimNumberToFitWithin0ToAnotherNumber"
+export { getOverlapsOfPotentiallyCircularRanges } from "./getOverlapsOfPotentiallyCircularRanges"
